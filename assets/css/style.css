@@ -1,0 +1,504 @@
+                                                html {
+                                                    font-family: Arial, Helvetica, sans-serif;
+                                                    padding: 0;
+                                                    margin: 0;
+                                                }
+                                                
+                                                body {
+                                                    margin: 0;
+                                                }
+                                                
+                                                .header__logo {
+                                                    display: inline;
+                                                    text-decoration: none;
+                                                    position: relative;
+                                                }
+                                                
+                                                .header__link {
+                                                    margin: 20px 0 0 150px;
+                                                }
+                                                
+                                                .header__logo--icon {
+                                                    color: #fdc800;
+                                                    background-color: #002146;
+                                                    padding: 15px;
+                                                    border-radius: 50%;
+                                                    font-size: 20px;
+                                                    text-decoration: none;
+                                                }
+                                                
+                                                .fa-house-circle-check {}
+                                                
+                                                .header__logo--text {
+                                                    display: inline;
+                                                    font-size: 40px;
+                                                    font-weight: bold;
+                                                    text-decoration: none;
+                                                    color: rgb(0, 0, 0);
+                                                    line-height: 30px;
+                                                    position: absolute;
+                                                    top: 29px;
+                                                    left: 215px;
+                                                }
+                                                
+                                                .header__navbar--img {
+                                                    width: 100%;
+                                                    height: 800px;
+                                                    margin-block-start: 0;
+                                                }
+                                                
+                                                .header__navbar {
+                                                    margin: 20px 180px;
+                                                    font-weight: bold;
+                                                }
+                                                
+                                                .header__navbar--text {
+                                                    padding-right: 50px;
+                                                    font-size: 15px;
+                                                    text-decoration: none;
+                                                    color: rgba(0, 0, 0, 0.681);
+                                                }
+                                                
+                                                .content__intro {
+                                                    width: 100%;
+                                                    display: inline-block;
+                                                }
+                                                
+                                                .content__intro--item {
+                                                    float: left;
+                                                    width: 50%;
+                                                }
+                                                
+                                                .content__intro--item-children {
+                                                    margin: 50px 150px;
+                                                }
+                                                
+                                                .content__intro--img {
+                                                    float: left;
+                                                    width: 50%;
+                                                    margin-bottom: 50px;
+                                                }
+                                                
+                                                .content__intro--img-children {
+                                                    float: right;
+                                                }
+                                                
+                                                .content__intro--title {
+                                                    font-size: 40px;
+                                                }
+                                                
+                                                .content__intro--text {
+                                                    padding-right: 100px;
+                                                }
+                                                
+                                                .content__intro--description {
+                                                    color: rgba(0, 0, 0, 0.7);
+                                                    font-size: 20px;
+                                                }
+                                                
+                                                .content__intro--btn {
+                                                    width: 130px;
+                                                    height: 50px;
+                                                    border: none;
+                                                    background-color: #fdc800;
+                                                    border-radius: 5px;
+                                                    font-weight: bold;
+                                                    font-size: 15px;
+                                                    margin-top: 40px;
+                                                    cursor: pointer;
+                                                }
+                                                
+                                                .content__achievement {
+                                                    display: inline-block;
+                                                    width: 100%;
+                                                    background-color: #f6f6f6;
+                                                }
+                                                
+                                                .content__achievement--list {
+                                                    margin: 0 120px;
+                                                }
+                                                
+                                                .content__achievement--item {
+                                                    float: left;
+                                                    width: 25%;
+                                                }
+                                                
+                                                .content__achievement--item-content {
+                                                    display: flex;
+                                                    margin: 100px 20px 100px 30px;
+                                                }
+                                                
+                                                .content__achievement--item-num {
+                                                    font-size: 70px;
+                                                    font-weight: bold;
+                                                    line-height: 50px;
+                                                    margin: auto 0;
+                                                    padding-right: 20px;
+                                                }
+                                                
+                                                .content__achievement--item-text {
+                                                    font-size: 25px;
+                                                    margin: auto 0;
+                                                    text-transform: uppercase;
+                                                    line-height: 30px;
+                                                }
+                                                
+                                                .content__job {
+                                                    width: 100%;
+                                                    display: inline;
+                                                    padding: 50px;
+                                                }
+                                                
+                                                .content__job--children {
+                                                    margin: 80px 130px;
+                                                }
+                                                
+                                                .content__job--list {
+                                                    float: left;
+                                                    width: 25%;
+                                                    text-decoration: none;
+                                                }
+                                                
+                                                .content__job--item:hover {
+                                                    transform: translateY(-2px);
+                                                    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+                                                }
+                                                
+                                                .content__job--item {
+                                                    margin: 20px;
+                                                    background-color: #002146;
+                                                    padding: 50px;
+                                                    border-radius: 5px;
+                                                    height: 100px;
+                                                    text-align: center;
+                                                    color: white;
+                                                    cursor: pointer;
+                                                }
+                                                
+                                                .content__job--icon {
+                                                    font-size: 50px;
+                                                    padding-bottom: 20px;
+                                                }
+                                                
+                                                .content__job--text {
+                                                    font-size: 25px;
+                                                }
+                                                
+                                                .content__new {
+                                                    width: 100%;
+                                                }
+                                                
+                                                .content__new-children {
+                                                    display: inline-block;
+                                                    background-color: #f6f6f6;
+                                                    padding: 0 150px 120px 150px;
+                                                    margin-top: 100px;
+                                                }
+                                                
+                                                .content__new--post {
+                                                    float: left;
+                                                    width: 50%;
+                                                }
+                                                
+                                                .content__new--post-children {
+                                                    display: inline-block;
+                                                    padding-right: 50px;
+                                                }
+                                                
+                                                .content__new--title {
+                                                    font-size: 40px;
+                                                    font-weight: bold;
+                                                    padding: 100px 0 50px 0;
+                                                    color: #1b1d2d;
+                                                }
+                                                
+                                                .content__new--event {
+                                                    float: left;
+                                                    width: 50%;
+                                                }
+                                                
+                                                .content__new--post-item {
+                                                    display: inline-block;
+                                                    background-color: white;
+                                                    padding: 30px 20px;
+                                                    border-bottom: 2.5px solid #f6f6f6;
+                                                    margin: 0 20px;
+                                                }
+                                                
+                                                .content__new--post-item:last-child {
+                                                    border: none;
+                                                }
+                                                
+                                                .content__new--post-item:hover {}
+                                                
+                                                .content__new--img {
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    border-radius: 5px;
+                                                    margin-top: auto;
+                                                }
+                                                
+                                                .content__post--left {
+                                                    float: left;
+                                                    width: 30%;
+                                                    height: 100%;
+                                                }
+                                                
+                                                .content__post--right {
+                                                    float: left;
+                                                    width: 70%;
+                                                }
+                                                
+                                                .content__post--right-children {
+                                                    padding: 0 5px 0 20px;
+                                                }
+                                                
+                                                .content__new--right-title {
+                                                    font-size: 25px;
+                                                    color: #1d1f2f;
+                                                    font-weight: bold;
+                                                }
+                                                
+                                                .content__new--post-list {
+                                                    background-color: white;
+                                                }
+                                                
+                                                .content__post--right-date {
+                                                    padding: 5px 0 10px 0;
+                                                    color: #9b9b9b;
+                                                    font-size: 20px;
+                                                }
+                                                
+                                                .content__new--right-description {
+                                                    display: -webkit-box;
+                                                    -webkit-line-clamp: 2;
+                                                    -webkit-box-orient: vertical;
+                                                    overflow: hidden;
+                                                    text-overflow: ellipsis;
+                                                    word-break: break-word;
+                                                    font-size: 20px;
+                                                    color: rgba(0, 0, 0, 0.609);
+                                                    width: 100%;
+                                                    margin: 0;
+                                                    line-height: 30px
+                                                }
+                                                
+                                                .content__new--post-btn {
+                                                    float: right;
+                                                    margin-top: 20px;
+                                                    width: 120px;
+                                                    height: 50px;
+                                                    color: black;
+                                                    background-color: #fdc800;
+                                                    border: none;
+                                                    border-radius: 5px;
+                                                    font-size: 15px;
+                                                    font-weight: bold;
+                                                    cursor: pointer;
+                                                }
+                                                
+                                                .content__new--event-children {
+                                                    display: inline-block;
+                                                    padding-left: 50px;
+                                                }
+                                                
+                                                .content__new--event-item {
+                                                    display: inline-block;
+                                                    width: 1005;
+                                                    background-color: white;
+                                                    padding: 25px 10px 20px 40px;
+                                                    margin-bottom: 20px;
+                                                    text-decoration: none;
+                                                    color: black;
+                                                    cursor: pointer;
+                                                }
+                                                
+                                                .content__new--event-item:hover {
+                                                    transform: translateY(-2px);
+                                                    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+                                                }
+                                                
+                                                .content__new--event-item:last-child {
+                                                    margin-bottom: 0px;
+                                                }
+                                                
+                                                .content__event--left {
+                                                    float: left;
+                                                    width: 20%;
+                                                }
+                                                
+                                                .content__event--right {
+                                                    float: left;
+                                                    width: 80%;
+                                                }
+                                                
+                                                .content__event--left-children {
+                                                    text-align: center;
+                                                }
+                                                
+                                                .content__event--left-day {
+                                                    background-color: #fdc800;
+                                                    border-top-left-radius: 5px;
+                                                    border-top-right-radius: 5px;
+                                                }
+                                                
+                                                .content__event--day {
+                                                    padding: 15px 20px 0 20px;
+                                                    font-size: 50px;
+                                                    margin-bottom: 0;
+                                                    font-weight: bold;
+                                                    margin-top: 0;
+                                                }
+                                                
+                                                .content__event--month {
+                                                    font-size: 20px;
+                                                    padding: 0 20px 10px 20px;
+                                                    font-weight: 500;
+                                                }
+                                                
+                                                .content__event--left-year {
+                                                    font-size: 20px;
+                                                    padding: 15px 20px;
+                                                    background-color: #002146;
+                                                    color: white;
+                                                    border-bottom-left-radius: 5px;
+                                                    border-bottom-right-radius: 5px;
+                                                }
+                                                
+                                                .content__event--right-children {
+                                                    padding: 0 35px 0 20px;
+                                                }
+                                                
+                                                .content__event--right-title {
+                                                    font-size: 25px;
+                                                    font-weight: bold;
+                                                    color: #1d1f2f;
+                                                }
+                                                
+                                                .content__event--right-description {
+                                                    font-size: 20px;
+                                                    color: rgba(0, 0, 0, 0.609);
+                                                    line-height: 30px
+                                                }
+                                                
+                                                .content__event--right-place {
+                                                    display: inline-block;
+                                                    font-size: 20px;
+                                                    color: #334d6c;
+                                                    font-weight: 550;
+                                                }
+                                                
+                                                .content__event--right-date {
+                                                    float: left;
+                                                    width: 40%;
+                                                    padding-right: 5%;
+                                                    border-right: 2.5px solid #f6f6f6;
+                                                }
+                                                
+                                                .content__event--right-location {
+                                                    float: left;
+                                                    width: 40%;
+                                                    padding-left: 5%;
+                                                    border-left: 1.5px solid #b6b4b4;
+                                                }
+                                                
+                                                .content__new--event-btn {
+                                                    float: right;
+                                                    margin-top: 20px;
+                                                    width: 120px;
+                                                    height: 50px;
+                                                    color: black;
+                                                    background-color: #fdc800;
+                                                    border: none;
+                                                    border-radius: 5px;
+                                                    font-size: 15px;
+                                                    font-weight: bold;
+                                                    cursor: pointer;
+                                                }
+                                                
+                                                .footer {
+                                                    background-color: #002146;
+                                                    width: 100%;
+                                                    height: 400px;
+                                                    color: white;
+                                                }
+                                                
+                                                .footer__title {
+                                                    font-size: 25px;
+                                                    font-weight: 900;
+                                                    margin-bottom: 30px;
+                                                }
+                                                
+                                                .footer__top {
+                                                    background-color: #002146;
+                                                    height: 90%;
+                                                    padding: 70px 150px 0px 150px;
+                                                }
+                                                
+                                                .footer__contact {}
+                                                
+                                                .footer__list {
+                                                    float: left;
+                                                    width: 33.3%;
+                                                    font-size: 20px;
+                                                    line-height: 35px;
+                                                }
+                                                
+                                                .footer__contact--list {
+                                                    margin-right: 60px;
+                                                }
+                                                
+                                                .footer__contact--phone {
+                                                    margin: 20px 0;
+                                                }
+                                                
+                                                .footer__contact--email {}
+                                                
+                                                .footer__features {}
+                                                
+                                                .footer__text {
+                                                    display: block;
+                                                    margin-bottom: 20px;
+                                                    text-decoration: none;
+                                                    color: white;
+                                                }
+                                                
+                                                .footer__text:hover {
+                                                    transform: translateY(-2px);
+                                                    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+                                                }
+                                                
+                                                .footer__quick {}
+                                                
+                                                .footer__contact--icon {
+                                                    display: inline;
+                                                    padding-right: 15px;
+                                                    color: #fdc800;
+                                                }
+                                                
+                                                .footer__contact--text {
+                                                    display: inline;
+                                                    text-decoration: none;
+                                                    color: white;
+                                                }
+                                                
+                                                .footer__contact--text:hover {
+                                                    transform: translateY(-2px);
+                                                    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+                                                }
+                                                
+                                                .footer__bottom {
+                                                    width: 100%;
+                                                    height: 150px;
+                                                    color: white;
+                                                    background-color: #002146;
+                                                }
+                                                
+                                                .footer__bottom--children {
+                                                    margin: 0 150px;
+                                                    border-top: 2px solid #444445;
+                                                    color: white;
+                                                    padding: 50px 0 0 0;
+                                                    font-size: 20px;
+                                                    line-height: 35px;
+                                                }
