@@ -112,9 +112,9 @@
                                                     display: inline-block;
                                                     width: 100%;
                                                     background-color: #f6f6f6;
+                                                    margin-top: 20px;
                                                 }
-                                                
-                                                .content__achievement--list {
+                                                /* .content__achievement--list {
                                                     margin: 0 120px;
                                                 }
                                                 
@@ -141,6 +141,39 @@
                                                     margin: auto 0;
                                                     text-transform: uppercase;
                                                     line-height: 30px;
+                                                }
+                                                 */
+                                                
+                                                .content__achievement--list {
+                                                    margin: 0 150px;
+                                                }
+                                                
+                                                .content__achievement--item {
+                                                    float: left;
+                                                    width: 25%;
+                                                    padding: 100px 0;
+                                                }
+                                                
+                                                .content__achievement--item-content {
+                                                    width: 100%;
+                                                }
+                                                
+                                                .content__achievement--item-num {
+                                                    font-size: 70px;
+                                                    font-weight: bold;
+                                                    line-height: 60px;
+                                                    float: left;
+                                                    margin-right: 15px;
+                                                }
+                                                
+                                                .content__achievement--item-text {
+                                                    float: left;
+                                                    font-size: 25px;
+                                                    margin: auto 0;
+                                                    text-transform: uppercase;
+                                                    line-height: 30px;
+                                                    max-width: 70%;
+                                                    font-weight: 400;
                                                 }
                                                 
                                                 .content__job {
